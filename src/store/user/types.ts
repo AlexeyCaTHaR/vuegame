@@ -5,7 +5,7 @@ export interface User {
   phone?: string;
 }
 
-export interface ProfileState {
+export interface UserState {
   user?: User;
   error: boolean;
 }

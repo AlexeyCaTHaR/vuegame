@@ -1,10 +1,10 @@
 import { ActionTree } from 'vuex';
 import axios from 'axios';
-import { ProfileState, User } from './types';
+import { UserState, User } from './types';
 import { RootState } from '@/types';
 
 /* eslint-disable import/prefer-default-export */
-export const actions: ActionTree<ProfileState, RootState> = {
+export const actions: ActionTree<UserState, RootState> = {
   fetchData({ commit }): any {
     axios({
       url: 'https://....',

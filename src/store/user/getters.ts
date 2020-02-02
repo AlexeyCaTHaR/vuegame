@@ -1,9 +1,9 @@
 import { GetterTree } from 'vuex';
-import { ProfileState } from './types';
+import { UserState } from './types';
 import { RootState } from '@/types';
 
 /* eslint-disable import/prefer-default-export */
-export const getters: GetterTree<ProfileState, RootState> = {
+export const getters: GetterTree<UserState, RootState> = {
   fullName(state): string {
     const { user } = state;
     const firstName = (user && user.firstName) || '';
