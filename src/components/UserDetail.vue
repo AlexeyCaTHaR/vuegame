@@ -43,9 +43,5 @@ export default class UserDetail extends Vue {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-body {
-  color: #42b983;
-}
 </style>
