@@ -12,7 +12,7 @@
 
 #### На чём работает
 - Vue (Type Script)
-- Vuex
+- Vuex(with vue-class && vue-class-component)
 - Vue router
 - sass
 - chai\mocha
